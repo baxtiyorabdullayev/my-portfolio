@@ -1,0 +1,36 @@
+.skills-page {
+  background-color: #6c6c65;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.skills-page > div {
+  margin: 10px;
+  width: 250px;
+  height: 300px;
+  background-color: rgb(204, 212, 219);
+  border-radius: 5px;
+}
+
+.skills-title {
+  padding: 7px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #7f806e;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee4d1;
+}
+
+.skills-title > p {
+  margin-left: 5px;
+}
+
+.skills-info {
+  padding: 7px;
+}

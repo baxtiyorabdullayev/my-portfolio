@@ -1,0 +1,59 @@
+.neo-navbar {
+  height: 180px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neo-navbar img {
+  border-radius: 10px;
+}
+
+.link {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #eee4d1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: rgb(35, 35, 35);
+  background-color: #c1bbaf;
+  /* box-shadow: 0 0 7px 2px #d2d823; */
+  border-radius: 10px;
+}
+
+.navbar-buttons {
+  margin: 0 10px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.my-name {
+  font-size: 48px;
+  color: rgb(204, 212, 219);
+}
+
+.my-position {
+  line-height: 8px;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(204, 212, 219);
+}
+
+.my-motto {
+  margin-top: 32px;
+  line-height: 25px;
+  color: rgb(204, 212, 219);
+}
