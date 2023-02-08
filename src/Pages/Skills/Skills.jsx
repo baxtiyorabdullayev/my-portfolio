@@ -13,9 +13,30 @@ function Skills() {
           <p>Technical</p>
         </div>
         <div className="skills-info">
-          <p>First name: Bakhtiyor</p>
-          <p>Last name: Abdullaev</p>
-          <p>Birth: 26.07.1995</p>
+          <div>
+            <span className="tech">HTML5/CSS3: </span>
+            <span className="percent"> 94%</span>
+          </div>
+          <div>
+            <span className="tech">Responsive:</span>
+            <span className="percent"> 80%</span>
+          </div>
+          <div>
+            <span className="tech">Bootstrap5:</span>
+            <span className="percent"> 89%</span>
+          </div>
+          <div>
+            <span className="tech">Java Script/ES6:</span>
+            <span className="percent"> 79%</span>
+          </div>
+          <div>
+            <span className="tech">React/Redux:</span>
+            <span className="percent"> 74%</span>
+          </div>
+          <div>
+            <span className="tech">Git/GItHub:</span>
+            <span className="percent"> 81%</span>
+          </div>
         </div>
       </div>
       <div>
@@ -24,9 +45,18 @@ function Skills() {
           <p>Language</p>
         </div>
         <div className="skills-info">
-          <p>First name: Bakhtiyor</p>
-          <p>Last name: Abdullaev</p>
-          <p>Birth: 26.07.1995</p>
+          <div>
+            <span className="tech">Uzbek:</span>
+            <span className="percent">Native</span>
+          </div>
+          <div>
+            <span className="tech">Russian:</span>
+            <span className="percent">B2</span>
+          </div>
+          <div>
+            <span className="tech">English:</span>
+            <span className="percent">B2</span>
+          </div>
         </div>
       </div>
     </div>

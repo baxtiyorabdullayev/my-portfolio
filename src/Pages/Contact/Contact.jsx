@@ -47,27 +47,45 @@ function Contact() {
         <div className="contact-info">
           <div>
             <FaGithub></FaGithub>
-            <span>Git Hub</span>
+            <a href="https://github.com/baxtiyorabdullayev" target="_blank">
+              Git Hub
+            </a>
           </div>
           <div>
             <RiLinkedinFill></RiLinkedinFill>
-            <span>Linked In</span>
+            <a href="#no" target="_blank">
+              Linked In
+            </a>
           </div>
           <div>
             <FaRegEnvelope></FaRegEnvelope>
-            <span>E-mail</span>
+            <a
+              href="mailto:bakhtiyor.abdullaev.frontend@gmail.com"
+              target="_blank"
+            >
+              E-mail
+            </a>
           </div>
           <div>
             <FaTelegramPlane></FaTelegramPlane>
-            <span>Telegram</span>
+            <a href="https://t.me/AbdullayevBaxtiyor" target="_blank">
+              Telegram
+            </a>
           </div>
           <div>
             <BsWhatsapp></BsWhatsapp>
-            <span>Whats App</span>
+            <a href="https://t.me/AbdullayevBaxtiyor" target="_blank">
+              Whats App
+            </a>
           </div>
           <div>
             <BsInstagram></BsInstagram>
-            <span>Instagram</span>
+            <a
+              href="https://www.instagram.com/abdullayev_baxtiyor_/"
+              target="_blank"
+            >
+              Instagram
+            </a>
           </div>
         </div>
       </div>

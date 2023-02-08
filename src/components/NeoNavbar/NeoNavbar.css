@@ -7,9 +7,11 @@
 
 .neo-navbar img {
   border-radius: 10px;
+  margin-right: 20px;
 }
 
 .link {
+  margin-right: 10px;
   text-align: center;
   font-weight: 400;
   text-decoration: none;
@@ -23,18 +25,21 @@
   justify-content: center;
 }
 
+.link:hover {
+  background-color: #dcd9d4;
+}
+
 .active {
   color: rgb(35, 35, 35);
   background-color: #c1bbaf;
-  /* box-shadow: 0 0 7px 2px #d2d823; */
   border-radius: 10px;
 }
 
 .navbar-buttons {
-  margin: 0 10px;
-  width: 180px;
+  /* margin: 0 10px; */
+  /* width: 180px; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-content: space-between;
 }
@@ -45,6 +50,7 @@
 }
 
 .my-position {
+  padding-left: 20px;
   line-height: 8px;
   font-weight: 300;
   font-size: 18px;
@@ -56,4 +62,12 @@
   margin-top: 32px;
   line-height: 25px;
   color: rgb(204, 212, 219);
+}
+
+.navbar-menus {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
 }

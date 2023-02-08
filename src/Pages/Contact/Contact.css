@@ -1,5 +1,4 @@
 .contact-page {
-  /* background-color: #6c6c65; */
   background-color: #8d898f;
   border-radius: 10px;
   display: flex;
@@ -44,6 +43,9 @@
   align-items: center;
 }
 
+.contact-info > div > a,
 .contact-info > div > span {
+  text-decoration: none;
+  color: #232323;
   margin-left: 10px;
 }

@@ -34,3 +34,22 @@
 .skills-info {
   padding: 7px;
 }
+
+.skills-info > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tech {
+  color: #232323;
+  margin-left: 10px;
+  font-weight: 350;
+  font-style: italic;
+}
+
+.percent {
+  font-style: normal;
+  font-weight: 600;
+}
