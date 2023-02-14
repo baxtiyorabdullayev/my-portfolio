@@ -2,18 +2,14 @@ import "./NeoNavbar.css";
 import React from "react";
 import myPhoto from "../../Assets/Images/me.png";
 import { NavLink } from "react-router-dom";
+import resume from "../../Assets/resume.pdf";
 
 // react icons
-import {
-  BiUser,
-  BiBrain,
-  BiCustomize,
-  BiPhone,
-  BiHomeAlt,
-} from "react-icons/bi";
+import { BiBrain, BiCustomize, BiPhone, BiHomeAlt } from "react-icons/bi";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { SlEmotsmile } from "react-icons/sl";
-import { FaTelegramPlane, FaGithub, FaLaptop } from "react-icons/fa";
+
+import { FaTelegramPlane, FaGithub, FaCloudDownloadAlt } from "react-icons/fa";
 
 function NeoNavbar() {
   return (
@@ -39,16 +35,16 @@ function NeoNavbar() {
             Projects
           </NavLink>
           <div className="mini-buttons">
-            <a href="#">
+            <a href="https://github.com/baxtiyorabdullayev" target="_blank">
               <FaGithub></FaGithub>
             </a>
-            <a href="#">
+            <a href="https://t.me/AbdullayevBaxtiyor" target="_blank">
               <FaTelegramPlane></FaTelegramPlane>
             </a>
-            <a href="#">
-              <FaLaptop></FaLaptop>
+            <a href={resume} download>
+              <FaCloudDownloadAlt></FaCloudDownloadAlt>
             </a>
-            <a href="#">
+            <a href="tel:+998939707302">
               <BiPhone></BiPhone>
             </a>
           </div>

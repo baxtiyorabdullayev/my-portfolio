@@ -1,15 +1,182 @@
-.home-page {
-  background-color: #1d1d1d;
-  border-radius: 10px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+.section-title {
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #551a8b;
+  border-bottom: 2px solid #ccd4db;
+  display: inline-block;
 }
 
-.home-page > div {
-  margin: 10px;
+/* about section  **************************************************/
+
+.about {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ccd4db;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+}
+
+.about-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.personal-info,
+.contact-info,
+.certificat-info {
+  margin-right: 20px;
+  width: 500px;
+  display: inline-block;
+}
+
+.personal-info li,
+.contact-info li,
+.certificat-info li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+  list-style: none;
+  border-bottom: 2px solid #2b3126;
+  border-bottom: 2px solid #5b3979;
+  border-bottom: 2px solid #e65100;
+}
+
+.personal-info li span,
+.contact-info li span,
+.certificat-info li span {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+/* .education section ****************************************** */
+
+.education {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ccd4db;
+  background-color: #2b312670;
+  border-radius: 10px;
+}
+
+.education-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.edu-card {
   width: 250px;
-  height: 300px;
-  background-color: rgb(204, 212, 219);
+  color: #1d1d1d;
+  text-align: center;
+  list-style: none;
   border-radius: 5px;
+  background-color: #7f806e;
+}
+
+.edu-card ul li {
+  margin-bottom: 7px;
+}
+
+.edu-title {
+  padding: 5px;
+  color: #ccd4db;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px 5px 0 0;
+  background-color: #42493f;
+}
+
+.edu-years {
+  margin-bottom: 7px;
+  color: #42493f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.edu-name {
+  margin-bottom: 7px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.edu-status {
+  margin-bottom: 7px;
+  padding: 5px;
+  color: #ccd4db;
+  font-size: 18px;
+  background-color: #5d7a44;
+}
+
+/* interests section *********************************************** */
+.hobby {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ccd4db;
+  border-radius: 10px;
+  background-color: #6f3e3e4d;
+}
+
+.hobby-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobby-card {
+  width: 170px;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  list-style: none;
+  text-align: center;
+  box-shadow: 8px 8px 0 rgb(0 0 0 / 28%);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.hobby-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 16px 9px 0 rgb(0 0 0 / 19%);
+}
+
+.hobby-icon {
+  margin: 15px;
+  font-size: 64px;
+}
+
+.hobby-title {
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #5b3979;
+}
+
+.hobby-description {
+  padding: 8px;
+  color: #7f806e;
+  font-style: italic;
+}
+
+/* certificate section  *****************************************************/
+.certificate {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #ccd4db;
+  border-radius: 10px;
+  background-color: #3e436f4d;
+}
+
+.certificate-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certificate-image {
+  width: 400px;
+  border-radius: 10px;
 }
