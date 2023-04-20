@@ -1,6 +1,6 @@
 import "./NeoNavbar.css";
 import React from "react";
-import myPhoto from "../../Assets/Images/me.png";
+import myPhoto from "../../Assets/Images/me.jpg";
 import { NavLink } from "react-router-dom";
 import resume from "../../Assets/resume.pdf";
 

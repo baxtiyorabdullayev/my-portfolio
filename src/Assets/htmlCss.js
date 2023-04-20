@@ -90,6 +90,15 @@ let htmlCss = [
       "https://www.figma.com/file/VCBhj0WljD20IzHilnjMSJ/PrivateJetBooking?node-id=0%3A3&t=0YDRn9cRtZ5G8cX2-1",
   },
   {
+    image: require("./Images/landingPage-ekoSnake-shop.png"),
+    title: "Landing page",
+    description: "Eko snake shop",
+    link: "https://maxrush-landing-page-eko-snake.netlify.app/",
+    code: "https://github.com/baxtiyorabdullayev/landingPage-ekoSnake-shop",
+    figma:
+      "https://www.figma.com/file/kEE76p45fR3K5nLti7IVBD/EcoSnake-site-(Community)?node-id=202%3A7&t=gy7vgvCsUxM0rCpD-1",
+  },
+  {
     image: require("./Images/landingPage-cobbits-shop.png"),
     title: "Landing page",
     description: "Cubbits glass market",

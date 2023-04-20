@@ -27,9 +27,19 @@ function Projects() {
               <a className="project-link" href={element.code} target="_blank">
                 Code
               </a>
-              <a className="project-link" href={element.figma} target="_blank">
-                Figma
-              </a>
+              {element.figma ? (
+                <a
+                  className="project-link"
+                  href={element.figma}
+                  target="_blank"
+                >
+                  Figma
+                </a>
+              ) : (
+                <a className="disabled" href={element.figma} target="_blank">
+                  Figma
+                </a>
+              )}
             </div>
           ))}
         </div>
