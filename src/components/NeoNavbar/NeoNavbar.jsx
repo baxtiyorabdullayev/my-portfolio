@@ -8,7 +8,6 @@ import resume from "../../Assets/resume.pdf";
 import { BiBrain, BiCustomize, BiPhone, BiHomeAlt } from "react-icons/bi";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { SlEmotsmile } from "react-icons/sl";
-
 import { FaTelegramPlane, FaGithub, FaCloudDownloadAlt } from "react-icons/fa";
 
 function NeoNavbar() {

@@ -32,7 +32,7 @@ function Home() {
               <span>Linked in:</span> @Baxtiyor
             </li>
             <li>
-              <span>Email:</span> Baxtiyor@gmail.com
+              <span>Email:</span> bakhtiyor.abdullaev.frontend@gmail.com
             </li>
             <li>
               <span>Whats App:</span> +998939707302
