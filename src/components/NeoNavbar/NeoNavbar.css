@@ -42,14 +42,10 @@
   justify-content: center;
 }
 
-.link:hover {
-  background-color: #dcd9d4;
-}
-
 .active {
-  color: rgb(35, 35, 35);
+  color: #eee4d1;
   border-radius: 10px;
-  background-color: #e65100;
+  background-color: #d5500896;
 }
 
 .mini-buttons {

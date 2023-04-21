@@ -1,5 +1,5 @@
 .projects-page {
-  background-color: #9485a691;
+  background-color: #464c4aa8;
   margin-bottom: 10px;
   padding: 20px;
   color: #ccd4db;
@@ -7,12 +7,14 @@
 }
 
 .filter-buttons {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #232323cf;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-button {
+.filter-buttons > button {
   margin: 5px;
   padding: 7px;
   border: none;
@@ -22,11 +24,81 @@ button {
   color: #232323;
   transition: 0.4s;
 }
-
-button:hover {
+.filter-buttons > button:hover {
   background-color: #dcd9d4;
 }
 
-button:active {
+.filter-buttons > button:active {
   background-color: #e65100;
+}
+
+/* projects box ******* */
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-title {
+  padding: 7px;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-image {
+  width: 100%;
+  box-shadow: 0px 4px 7px 2px #6a4949d1;
+  box-shadow: 4px 0px 7px 2px #6a4949d1;
+}
+
+.project-buttons {
+  display: flex;
+}
+
+.project-link,
+#project-button {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  width: 45px;
+  color: #ccd4db;
+  background-color: #232323cf;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.project-link:hover {
+  color: #232323cf;
+  background-color: #ccd4db;
+}
+
+#project-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  width: 100px;
+}
+
+.likes {
+  margin-left: 5px;
+}
+
+.project-card {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #55847891;
+}
+
+.project-card img {
+  width: 100%;
 }
