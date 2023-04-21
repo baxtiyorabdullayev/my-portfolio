@@ -34,16 +34,24 @@ function NeoNavbar() {
             Projects
           </NavLink>
           <div className="mini-buttons">
-            <a href="https://github.com/baxtiyorabdullayev" target="_blank">
+            <a
+              href="https://github.com/baxtiyorabdullayev"
+              target="_blank"
+              className="mini-link"
+            >
               <FaGithub></FaGithub>
             </a>
-            <a href="https://t.me/AbdullayevBaxtiyor" target="_blank">
+            <a
+              href="https://t.me/AbdullayevBaxtiyor"
+              target="_blank"
+              className="mini-link"
+            >
               <FaTelegramPlane></FaTelegramPlane>
             </a>
-            <a href={resume} download>
+            <a href={resume} download className="mini-link">
               <FaCloudDownloadAlt></FaCloudDownloadAlt>
             </a>
-            <a href="tel:+998939707302">
+            <a href="tel:+998939707302" className="mini-link">
               <BiPhone></BiPhone>
             </a>
           </div>

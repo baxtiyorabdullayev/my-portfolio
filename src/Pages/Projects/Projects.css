@@ -1,15 +1,16 @@
 .projects-page {
   background-color: #464c4aa8;
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 10px;
   color: #ccd4db;
   border-radius: 10px;
 }
 
 .filter-buttons {
+  margin-bottom: 7px;
   padding: 5px;
   border-radius: 5px;
-  background-color: #232323cf;
+  background-color: #7f806e;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -59,7 +60,7 @@
 }
 
 .project-link,
-#project-button {
+.like-button {
   margin: 5px;
   padding: 5px;
   display: inline-block;
@@ -76,7 +77,7 @@
   background-color: #ccd4db;
 }
 
-#project-button {
+.like-button {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -101,4 +102,8 @@
 
 .project-card img {
   width: 100%;
+}
+
+.liked {
+  background-color: #551a8b !important;
 }

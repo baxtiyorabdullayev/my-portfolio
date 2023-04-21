@@ -45,7 +45,8 @@
 .active {
   color: #eee4d1;
   border-radius: 10px;
-  background-color: #d5500896;
+  /* background-color: #d5500896; */
+  background-color: #551a8b;
 }
 
 .mini-buttons {
@@ -66,6 +67,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mini-link {
+  color: #551a8b;
 }
 
 .my-name {
