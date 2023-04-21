@@ -37,6 +37,10 @@ function Skills() {
             <span className="tech">Git/GItHub:</span>
             <span className="percent"> 81%</span>
           </div>
+          <div>
+            <span className="tech">Photo Shop:</span>
+            <span className="percent"> 81%</span>
+          </div>
         </div>
       </div>
       <div>

@@ -98,7 +98,11 @@ function Home() {
             </li>
           </ul>
 
-          <img src={certificate} className="certificate-image" />
+          <img
+            src={certificate}
+            className="certificate-image"
+            alt="serticificate"
+          />
         </div>
       </div>
     </div>

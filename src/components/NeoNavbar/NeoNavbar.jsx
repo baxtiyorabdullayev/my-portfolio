@@ -56,7 +56,8 @@ function NeoNavbar() {
           <MdOutlineWavingHand></MdOutlineWavingHand> Hi there I'm the front-end
           developer who you're looking for, <br /> you know what?... I hacked
           NASA using HTML!
-          <br /> Now trying hacked TESLA using CSS <SlEmotsmile></SlEmotsmile>
+          <br /> Now trying to hacked TESLA using CSS{" "}
+          <SlEmotsmile></SlEmotsmile>
         </p>
       </div>
     </div>
