@@ -5,6 +5,7 @@ import allProjects from "../../Assets/projects";
 import Project from "./Project";
 
 function Projects() {
+  
   return (
     <div>
       <div className="filter-buttons">

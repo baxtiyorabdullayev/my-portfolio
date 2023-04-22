@@ -57,6 +57,7 @@
 
 .project-buttons {
   display: flex;
+  justify-content: space-between;
 }
 
 .project-link,
@@ -105,5 +106,9 @@
 }
 
 .liked {
-  background-color: #551a8b !important;
+  background-color: #551a8b;
+}
+
+.hidden {
+  display: none;
 }

@@ -30,9 +30,16 @@ function Project({ image, title, demo, code, figma, description }) {
         <a className="project-link" href={code} target="_blank">
           <BsGithub></BsGithub>
         </a>
-        <a className="project-link" href={figma} target="_blank">
-          <RxFigmaLogo></RxFigmaLogo>
-        </a>
+        {figma ? (
+          <a className="project-link" href={figma} target="_blank">
+            <RxFigmaLogo></RxFigmaLogo>
+          </a>
+        ) : (
+          <a className="hidden" href={figma} target="_blank" disabled>
+            <RxFigmaLogo></RxFigmaLogo>
+          </a>
+        )}
+
         <button
           className={`like-button ${isClicked && "liked"}`}
           onClick={handleClick}
