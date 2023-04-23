@@ -105,7 +105,8 @@
   width: 100%;
 }
 
-.liked {
+.liked,
+.active-btn {
   background-color: #551a8b;
 }
 

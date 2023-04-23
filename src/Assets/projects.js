@@ -1,7 +1,7 @@
 let allProjects = [
   {
     image: require("./Images/landingPage-bella-andrv.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Bella Andrv's portfolio",
     demo: "https://maxrush-landing-page-bella.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-bellaAndrv",
@@ -11,7 +11,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-cleaningService.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Cleaning service",
     demo: "https://maxrush-landing-page-cleaning.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-cleaningService",
@@ -21,7 +21,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-floristman.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Flowers shop",
     demo: "https://maxrush-landing-page-floristman.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-floristman",
@@ -31,7 +31,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-mariela.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Mariela's portfolio",
     demo: "https://maxrush-landing-page-mariela.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-mariela",
@@ -41,7 +41,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-swingvyHrCompany.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Swingvy HR company",
     demo: "https://maxrush-landing-page-swingvy.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-Swingvy",
@@ -51,7 +51,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-pompeo-store.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Unique shop",
     demo: "https://maxrush-landing-page-pompeo.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-pompeo-store",
@@ -61,7 +61,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-Thalby-shop.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Thalby guide agency",
     demo: "https://maxrush-landing-page-thalby.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-Thalby-shop",
@@ -71,7 +71,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-dudeShape-shop.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "DudeShape shop",
     demo: "https://maxrush-landing-page-dude.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-dudeShape-shop",
@@ -81,7 +81,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-privateJet-booking.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Private Jet booking",
     demo: "https://maxrush-landing-page-jet.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-privateJet-booking",
@@ -91,7 +91,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-yogi-startup.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Yogi startup",
     demo: "https://maxrush-landing-page-yogi.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-yogi-startup",
@@ -101,7 +101,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-cobbits-shop.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Cubbits glass market",
     demo: "https://maxrush-landing-page-cubbits.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-cubbits-shop",
@@ -111,7 +111,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-simple-portfolio.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Simple porfoli page",
     demo: "https://maxrush-landing-page-simple-portfolio.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-simple-portfolio",
@@ -119,7 +119,7 @@ let allProjects = [
   },
   {
     image: require("./Images/part-of-site.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Part of landing (real project)",
     demo: "https://maxrush-part-of-site.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-part-of-site",
@@ -127,7 +127,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-ekoSnake-shop.png"),
-    type: "landing",
+    type: "Landing Page",
     title: "Eko snake shop",
     demo: "https://maxrush-landing-page-eko-snake.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-ekoSnake-shop",
@@ -137,7 +137,7 @@ let allProjects = [
   },
   {
     image: require("./Images/calculator.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "calculator",
     demo: "https://maxrush-calculator.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/calculator",
@@ -145,7 +145,7 @@ let allProjects = [
   },
   {
     image: require("./Images/landingPage-hydroCompany.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Hydro IT Company",
     demo: "https://maxrush-landing-page-hydro.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/landingPage-hydroCompany",
@@ -153,7 +153,7 @@ let allProjects = [
   },
   {
     image: require("./Images/kredit-kalkulyator.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Kredit kalkulyator",
     demo: "https://maxrush-kredit-kalkulyator.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/kredit-kalkulyator",
@@ -161,7 +161,7 @@ let allProjects = [
   },
   {
     image: require("./Images/pomodoro.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "pomodoro focus",
     demo: "https://maxrush-pomodoro.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/pomodoro",
@@ -169,7 +169,7 @@ let allProjects = [
   },
   {
     image: require("./Images/sighUp-sighIn(with-validation).png"),
-    type: "javascript",
+    type: "Java Script",
     title: "sigh up (validation)",
     demo: "https://maxrush-sign-up3-validation.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/registration-validation",
@@ -177,7 +177,7 @@ let allProjects = [
   },
   {
     image: require("./Images/x-o-game.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "X and o game",
     demo: "https://maxrush-x-o-game.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/x-o-game",
@@ -185,7 +185,7 @@ let allProjects = [
   },
   {
     image: require("./Images/toDo-App.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "To Do App",
     demo: "https://maxrush-to-do.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/toDo-app",
@@ -193,7 +193,7 @@ let allProjects = [
   },
   {
     image: require("./Images/order-burgerMenu.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Simple burger menu",
     demo: "https://maxrush-burger-menu.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/order-burgerMenu",
@@ -201,7 +201,7 @@ let allProjects = [
   },
   {
     image: require("./Images/working-with-api.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Working with API",
     demo: "https://maxrush-working-with-api.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/working-with-api",
@@ -209,7 +209,7 @@ let allProjects = [
   },
   {
     image: require("./Images/simple-CRUD.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Simle CRUD",
     demo: "https://maxrush-simple-crud.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/simple-CRUD",
@@ -217,7 +217,7 @@ let allProjects = [
   },
   {
     image: require("./Images/dictionary-card-simle.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Dictionary card",
     demo: "https://maxrush-dictionary-card.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/dictionary-card-simle",
@@ -225,7 +225,7 @@ let allProjects = [
   },
   {
     image: require("./Images/analog-clock.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Analog clock",
     demo: "https://maxrush-clock.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/analog-clock",
@@ -233,7 +233,7 @@ let allProjects = [
   },
   {
     image: require("./Images/modal-registration.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "sigh up (simple)",
     demo: "https://maxrush-sign-up1.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/modal-registration",
@@ -241,7 +241,7 @@ let allProjects = [
   },
   {
     image: require("./Images/dino-game.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Dino game",
     demo: "https://maxrush-dino-game.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/chrome-dino-game",
@@ -249,7 +249,7 @@ let allProjects = [
   },
   {
     image: require("./Images/random-number.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Random number",
     demo: "https://maxrush-random-number.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/random-number",
@@ -257,7 +257,7 @@ let allProjects = [
   },
   {
     image: require("./Images/password-generator.png"),
-    type: "javascript",
+    type: "Java Script",
     title: "Password generator",
     demo: "https://maxrush-password-generator.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/password-generator",
@@ -266,7 +266,7 @@ let allProjects = [
 
   {
     image: require("./Images/reteUs.png"),
-    type: "other",
+    type: "Other",
     title: "Rate us menu",
     demo: "https://maxrush-rate-us-bar.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/rateUs",
@@ -274,15 +274,14 @@ let allProjects = [
   },
   {
     image: require("./Images/modal-registration2.png"),
-    type: "other",
+    type: "Other",
     title: "Home work project",
     demo: "https://maxrush-sign-up2.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/modal-registration2",
-    description: "some information about project",
   },
   {
     image: require("./Images/css-filters.png"),
-    type: "other",
+    type: "Other",
     title: "Home work project",
     demo: "https://maxrush-css-filters.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-filters",
@@ -291,7 +290,7 @@ let allProjects = [
 
   {
     image: require("./Images/css-animation2.png"),
-    type: "other",
+    type: "Other",
     title: "Css animation 2",
     demo: "https://maxrush-css-animation2.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-animation2",
@@ -299,7 +298,7 @@ let allProjects = [
   },
   {
     image: require("./Images/modal-registration3.png"),
-    type: "other",
+    type: "Other",
     title: "Home work project",
     demo: "https://maxrush-sign-up4.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/modal-registration3",
@@ -307,7 +306,7 @@ let allProjects = [
   },
   {
     image: require("./Images/css-animation1.png"),
-    type: "other",
+    type: "Other",
     title: "Css animation 1",
     demo: "https://maxrush-css-animation1.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-animation1",
@@ -315,7 +314,7 @@ let allProjects = [
   },
   {
     image: require("./Images/css-animation3.png"),
-    type: "other",
+    type: "Other",
     title: "Css animation 3",
     demo: "https://maxrush-css-animation3.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-animation3",
@@ -323,7 +322,7 @@ let allProjects = [
   },
   {
     image: require("./Images/css-animation4.png"),
-    type: "other",
+    type: "Other",
     title: "Css animation 4",
     demo: "https://maxrush-css-animation4.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-animation4",
@@ -331,7 +330,7 @@ let allProjects = [
   },
   {
     image: require("./Images/css-animation5.png"),
-    type: "other",
+    type: "Other",
     title: "Css animation 5",
     demo: "https://maxrush-css-animation5.netlify.app/",
     code: "https://github.com/baxtiyorabdullayev/css-animation5",
@@ -342,7 +341,7 @@ let allProjects = [
 export default allProjects;
 
 //     image: require("./Images/landingPage-hydroCompany.png"),
-//     type: "landing",
+//     type: "Landing Page",
 //     title: "Hydro IT Company",
 //     demo: "https://maxrush-landing-page-hydro.netlify.app/",
 //     code: "https://github.com/baxtiyorabdullayev/landingPage-hydroCompany",
