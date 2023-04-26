@@ -10,7 +10,9 @@
   margin-bottom: 7px;
   padding: 5px;
   border-radius: 5px;
-  background-color: #7f806e;
+  /* background-color: #7f806e; */
+  background-color: #551a8b;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -24,6 +26,8 @@
   cursor: pointer;
   color: #232323;
   transition: 0.4s;
+  background-color: #eee4d1;
+  font-weight: 500;
 }
 .filter-buttons > button:hover {
   background-color: #dcd9d4;
