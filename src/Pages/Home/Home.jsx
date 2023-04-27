@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-page">
       {/* about me saction  */}
-      <div className="about">
+      {/* <div className="about">
         <h1 className="section-title">#About me</h1>
         <div className="about-box">
           <ul className="personal-info">
@@ -45,7 +45,7 @@ function Home() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* education saction  */}
       <div className="education">
