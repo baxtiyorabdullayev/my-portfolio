@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+  @apply bg-[#BB86FC] p-2 rounded-full duration-700 text-[#2A2929];
+}
