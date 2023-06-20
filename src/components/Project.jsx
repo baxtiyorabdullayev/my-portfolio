@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { style } from "../utilities/styles";
 
 // react icons
-import { BsGlobe, BsGithub } from "react-icons/bs";
-import { RxFigmaLogo } from "react-icons/rx";
+import { BsGithub } from "react-icons/bs";
 import { AiFillHeart } from "react-icons/ai";
+import { BsGlobe2 } from "react-icons/bs";
 
-function Project({ title, image, demo, code, figma, description }) {
+function Project({ title, category, demo, code, image }) {
   let likeQuentitiy = Math.random() * 1000;
   const [likes, setLikes] = useState(+likeQuentitiy.toFixed(0));
   const [isClicked, setIsClicked] = useState(false);
@@ -19,35 +20,44 @@ function Project({ title, image, demo, code, figma, description }) {
     setIsClicked(!isClicked);
   };
   return (
-    <div className="w-[200px] m-2 bg-[#203b58]  text-center ">
-      <p className="font-chakraPetch text-[#DADEE1] py-2">{title}</p>
-      <img src={image} alt="project's image" />
-      <div className="flex items-center justify-around mt-1 text-[#DADEE1]">
-        <a className="" href={demo} target="_blank">
-          <BsGlobe></BsGlobe>
+    <div className={`text-center ${style.cardBorder}`}>
+      <img
+        src={image}
+        alt={title}
+        className="rounded-md mx-auto w-full mb-3 "
+      />
+      <p className="font-poppins text-[#DADEE1] uppercase leading-[5px]">
+        {title}
+      </p>
+      <span className="text-[12px] text-[#FFC107]">{category}</span>
+      <div className="flex items-center justify-between text-[#DADEE1] w-full">
+        <a
+          className=" bg-[#5F5AF6] py-1 w-1/3 rounded-lg mx-1"
+          href={demo}
+          target="_blank"
+        >
+          <BsGlobe2 className="inline mr-3" />
+          <span className="font-bold">Link</span>
         </a>
-        <a className="" href={code} target="_blank">
-          <BsGithub></BsGithub>
+        <a
+          className="bg-[#5F5AF6] py-1 w-1/3 rounded-lg mx-1"
+          href={code}
+          target="_blank"
+        >
+          <BsGithub className="inline mr-3" />
+          <span className="font-bold"> Code</span>
         </a>
-        {figma ? (
-          <a className="" href={figma} target="_blank">
-            <RxFigmaLogo></RxFigmaLogo>
-          </a>
-        ) : (
-          <a className="" href={figma} target="_blank" disabled>
-            <RxFigmaLogo></RxFigmaLogo>
-          </a>
-        )}
 
         <button
-          className={`like-button ${isClicked && "text-[#FFC107]"}`}
+          className={`bg-[#384766] py-1 w-1/3 rounded-lg mx-1 ${
+            isClicked && "bg-red-400"
+          }`}
           onClick={handleClick}
         >
-          <AiFillHeart></AiFillHeart>
+          <AiFillHeart className="inline mr-3" />
+          <span className="font-bold">{likes}</span>
         </button>
-        <span className="">{likes}</span>
       </div>
-      <p>{description}</p>
     </div>
   );
 }

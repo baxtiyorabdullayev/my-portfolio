@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       chakraPetch: ["Chakra Petch", "sans-serif"],
+      comfortaa: ["Comfortaa", "cursive"],
+      poppins: ["Poppins", "sans-serif"],
     },
     extend: {},
   },
